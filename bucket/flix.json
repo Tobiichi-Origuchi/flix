@@ -8,11 +8,5 @@
             "url": "https://github.com/Tobiichi-Origuchi/flix-bin/releases/download/windows-v2.0.6.112/Flix-Windows-2.0.6.112-portable.zip",
             "hash": "b720c4f0a968fb7a428522b6a014a33d565243eb611f5364ad6a439d569d6228"
         }
-    },
-    "shortcuts": [
-        [
-            "flix.exe",
-            "Flix"
-        ]
-    ]
+    }
 }
