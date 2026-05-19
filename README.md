@@ -5,7 +5,7 @@ This is an __*unofficial*__ scoop bucket of [Flix](https://flix.center).
 ## Usage
 
 ```pwsh
-scoop bucket add flix
+scoop bucket add flix https://github.com/Tobiichi-Origuchi/flix
 scoop install flix/flix
 ```
 
