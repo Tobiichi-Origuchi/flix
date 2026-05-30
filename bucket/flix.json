@@ -1,8 +1,11 @@
 {
-    "version": "2.0.7.113-2",
+    "version": "2.0.7.113-1",
     "description": "Flix - 像聊天一样传文件. 跨平台文件传输工具，支持局域网内设备间快速分享文件。",
     "homepage": "https://flix.center",
     "license": "Freeware",
+    "post_install": [
+        "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$ws = New-Object -ComObject WScript.Shell; $s = $ws.CreateShortcut([Environment]::GetFolderPath('Programs') + '\\Flix.lnk'); $s.TargetPath = \"$dir\\flix.exe\"; $s.WorkingDirectory = \"$dir\"; $s.Save()\""
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/Tobiichi-Origuchi/flix-pkg/releases/download/windows-v2.0.7.113/Flix-Windows-2.0.7.113-portable.zip",
