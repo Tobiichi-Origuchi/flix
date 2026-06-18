@@ -12,7 +12,7 @@
     "installer": {
         "script": [
             ". \"$bucketsdir\\$bucket\\bin\\utils.ps1\"",
-            "New-PersistDirectory \"$env:APPDATA\\com.ifreedomer\\flix\" \"$persist_dir\\AppData\" -Migrate",
+            "New-PersistDirectory \"$env:APPDATA\\com.ifreedomer\\flix\" \"$persist_dir\\AppData\" -Migrate"
         ]
     },
     "pre_uninstall": [
