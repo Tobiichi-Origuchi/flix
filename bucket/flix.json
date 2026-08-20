@@ -1,5 +1,5 @@
 {
-    "version": "2.2.1.121-1",
+    "version": "2.2.3.123-1",
     "description": "Flix - 像聊天一样传文件. 跨平台文件传输工具，支持局域网内设备间快速分享文件。",
     "homepage": "https://flix.center",
     "license": "Freeware",
@@ -24,8 +24,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Tobiichi-Origuchi/flix-pkg/releases/download/windows-v2.2.1.121/Flix-Windows-portable-2.2.1.121.zip",
-            "hash": "56a47962a0924ca1c13751c7dceeb2b74f57f3561f099fce8844969cdb3962f6"
+            "url": "https://github.com/Tobiichi-Origuchi/flix-pkg/releases/download/windows-v2.2.3.123/Flix-Windows-portable-2.2.3.123.zip",
+            "hash": "4b2d9a6cbc9355dace770492f63447fe266c25a3272535424c655c894907d57a"
         }
     }
 }
